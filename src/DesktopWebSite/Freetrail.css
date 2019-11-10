@@ -1,0 +1,146 @@
+.full-parent{
+    background: url("/static/media/Payments_Graphic.6c7ef099.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 42% 42%;
+}
+
+.free-container{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    color: black;
+    padding-bottom: 140px;
+}
+.free-row{
+    display: flex;
+}
+
+.logo-f{
+    /* height: 126px; */
+}
+.f-header-logo{
+    width: 9.3vw !important;
+}
+.description{
+    padding-left: 3%;
+    padding-top: 4.5%;
+    margin-top: 20px;
+}
+.mar-9{
+    margin-left: 9vw;
+    padding-left: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.title{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 27px;
+    line-height: 30px;
+    
+}
+.package-title{
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-left: 12vw;
+}
+.subtitle{
+    margin: 0;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.sub-info{
+    width: 55%;
+    font-size: 14px;
+}
+
+.package-c{
+    width: 179px;
+    height: auto;
+    margin-right: 40px;
+    
+}
+.package{
+    border: solid 0.2px #d7d7d7;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+    height: 265px;
+    border-radius: 10px;
+    background: #fff;
+}
+.package-title{
+    width: 100%;
+}
+
+.package-header{
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.package-header label{
+    float: right;
+    clear: both;
+}
+
+.package-body{
+    padding: 0 10px;
+}
+.package-body p{
+    margin: 10px 0px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.package-label{
+    text-align: center;
+    color: #e60000;
+    font-size: 11px;
+    margin: 5px;
+    font-weight: 600;
+    height: 12px;
+}
+
+.left-container{
+    width: auto;
+    margin-right: 10px;
+}
+
+.start-left{
+    justify-content: flex-start;
+}
+
+.input-control{
+    width: 100%;
+}
+
+.input-control input{
+    width: 360px;
+}
+
+.title-form{
+    margin: 30px 0px;
+    margin-left: 9vw;
+    padding-left: 3%;
+}
+.sub-form{
+    margin: 10px 0px;
+    margin-left: 9vw;
+    padding-left: 3%;
+    
+}
+.subtext{
+    font-size: 12px;
+    height: 15px;
+    margin-left: 9.7vw;
+}

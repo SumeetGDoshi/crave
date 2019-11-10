@@ -1,0 +1,100 @@
+.card-heading {
+  font-family: 'ProximaNovaAlt-Bold';
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #43484d;
+}
+
+.card-subheading {
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #43484d;
+}
+
+.blog-subsection-title {
+  font-family: 'ProximaNovaAlt-Bold';
+  font-size: 14px;
+  margin: 2% 0;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #43484d;
+}
+
+.blog-subsection-description {
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 12px;
+  margin: 2% 0;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #43484d;
+}
+
+.blog-meta {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.blog-title-m {
+  font-family: 'ProximaNovaAlt-Bold';
+  font-size: 18px;
+  margin: 5% 0;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #43484d;
+}
+
+.blog-date-m {
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 14px;
+  margin: 5% 0;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #43484d;
+}
+
+.span-goback {
+  margin-left: 5%;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.buttonview{
+  width: 134px;
+  height: 37px;
+  border-radius: 17.5px;
+  background-color: #da7b6e;
+  color:white;
+  border:none;
+  outline: none;
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+
+}

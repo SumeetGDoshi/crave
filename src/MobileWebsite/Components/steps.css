@@ -1,0 +1,185 @@
+.step2{
+    text-align: left;
+    font-size: 24pt;
+    color: #E6CE57;
+    padding-top: 10%;
+    margin: 2% 4%;
+    padding-left: 7%;
+    font-family: 'ProximaNovaAlt-Light'
+}
+.contract{
+    font-size: 14pt;
+    text-align: left;
+    font-family: 'ProximaNovaAlt-Light';
+    margin: 2% 4%;
+    color: #E6CE57;
+    padding-left: 7%
+    
+}
+.cravepvtltd{
+    font-size: 20px;
+    font-family: 'ProximaNovaAlt-Light'
+}
+
+.agreement{
+    font-size: 18px;
+    font-family: 'ProximaNovaAlt-Light'
+}
+
+
+
+.formsubmit{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: -12px;
+    height: 50px;
+    border-color: black;
+    padding: 25px;
+    border: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 40px;
+    line-height: 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+    outline: none;
+    
+    margin-bottom: 20px;
+    font-family: 'ProximaNovaAlt-Light'
+    
+    
+}
+.buttondiv{
+  margin-top: -42px;
+
+}
+.accepttandc{
+    
+    width: 80%;
+    margin: 20px 0px;
+    height: 50px;
+    
+    padding: 25px;
+    border: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    line-height: 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+    outline: none;
+    margin: 18% 10%;
+    margin-bottom: 20px;
+    font-family: 'ProximaNovaAlt-Light'
+    
+
+    
+}
+
+.info{
+    text-align: left;
+    font-size: 14pt;
+    color: black;
+    font-family: 'ProximaNovaAlt-Light';
+    margin: 8% 5%;
+    padding-left: 7%;
+    padding-right: 4%
+    
+    
+}
+
+.headerContainer {
+    width: 90vw;
+    background: #000;
+    margin: auto;
+    height: 15vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+  }
+  
+  .headerLogo {
+    height: 85%;
+    text-align: center;
+    max-height: 93px;
+    display: inline-block;
+  }
+  
+  .headerLogo img {
+    height: 80%;
+    margin: 10% auto auto auto;
+  }
+
+  .segment_body {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    font-family: 'ProximaNovaAlt-Light';
+    font-size: 1.1em;
+  }
+
+ 
+
+  
+
+  .fillForm{
+    color: #da7b6e;
+    padding: 15px;
+    margin-left: 20px;
+    align-self: center;
+    
+ 
+  }
+  .inputHolder{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    width: 90%;
+
+}
+  .stepsformsubmit{
+    width: 80%;
+    margin: 20px 0px;
+    height: 50px;
+    
+    padding: 25px;
+    border: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 40px;
+    line-height: 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+    outline: none;
+    margin: 10% 10%;
+    margin-bottom: 20px;
+    font-family: 'ProximaNovaAlt-Light'
+  }
+  .MuiFormControl-marginNormal-68 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.footer{
+    width: 90%;
+    margin: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    border-color: black;
+    padding: 25px;
+    border: 1px solid #000;
+    color: black;
+    text-align: center;
+    border-radius: 40px;
+    line-height: 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+    outline: none;
+    font-family: 'ProximaNovaAlt-Light';
+}
+
+.uppercase{
+    text-transform: capitalize;
+}

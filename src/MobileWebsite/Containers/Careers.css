@@ -1,0 +1,378 @@
+.logo{
+  height: 86px;
+ 
+}
+.headImage{
+  height: 100%;
+  width: 64px !important;
+  padding-left: 25px;
+}
+.position_name{
+  height: 22px;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: 0.6px;
+  color: #000000;
+  padding-left: 25px;
+
+}
+
+.no-positions-div{
+  padding: 2%;
+  border: 1px solid #43484d;
+  border-radius: 5px;
+  background: #fff;
+}
+
+
+.location{
+  width: 46px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #43484d;
+  padding-left: 25px
+}
+.weare{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #000000;
+  font-family: 'ProximaNovaAlt-Regular';
+  margin: auto;
+  margin-top: 15px;
+  padding: 0 25px
+}
+.requirement{
+  width: 95px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #43484d;
+  padding-left: 25px
+}
+.creating{
+    width: 324px;
+    height: auto;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.1px;
+    color: #000000;
+    font-family: 'ProximaNovaAlt-Regular';
+    padding-left: 22px
+
+}
+.roles{
+  width: 39px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #43484d;
+  padding-left: 25px
+}
+.creativity{
+  width: 184px;
+  height: auto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.1px;
+  color: #000000;
+  font-family: 'ProximaNovaAlt-Regular';
+  padding-left: 22px
+
+}
+.buttonapplynow{
+  width: 116px;
+  height: 37px;
+  border-radius: 17.5px;
+  background-color: #da7b6e;
+  padding-left: 10px;
+  color:white;
+  border: none;
+  outline: none;
+  font-family: 'ProximaNovaAlt-Regular';
+  margin-top: 24px;
+}
+
+.button{
+    padding-left: 25px
+}
+.goback{
+  margin-left: 32px;
+  margin-top: auto;
+  position: absolute;
+  top: 42px;
+  color: black
+}
+.maindiv{
+  padding: 0px
+}
+.position{
+  height: 17px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #43484d;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cards{
+  width: 100%;
+  border-radius: 5px;
+  border: solid 0.5px #d7d7d7;
+  background-color: #ffffff;
+  padding: 0px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.text{
+  width: 100%;
+  height: 45px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #43484d;
+  font-family: 'ProximaNovaAlt-Regular';
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.buttonview{
+  width: 134px;
+  height: 37px;
+  border-radius: 17.5px;
+  background-color: #da7b6e;
+  color:white;
+  border:none;
+  outline: none;
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+
+}
+.maindiv{
+    
+}
+.cardsdiv{
+    padding: 17px
+}
+.careers{ 
+  width: 102px;
+  height: 22px;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #000000;
+  display: inline;
+  margin-left: 34px;
+  margin-top: 40px;
+  position: absolute;
+  font-family: 'ProximaNovaAlt-Bold';
+}
+.Locationlogo{
+  width: 8px;
+  height: 12px;
+  background-color: #050202;
+}
+.marginauto{
+  margin: auto
+}
+.locationPin{
+ font-size: 12px;
+  padding-left: 20px;
+  background-color: #ffffff;
+  display: inline;
+  padding: 0px;
+  margin-left: 5px;
+}
+.iconLocation{
+  font-size: 12px !important;
+  line-height: 1 !important;
+}
+.locationPin2{
+  font-size: 12px;
+  padding-left: 20px;
+  background-color: #ffffff;
+  display: inline;
+  padding: 19px
+}
+.spanclass{
+  margin-left: 22px
+}
+
+
+
+
+.headImageD{
+  width: 88px !important;
+  height: 118px;
+  margin-left: 6%
+  
+}
+.graphicD{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px !important;
+  height: 400px;
+  z-index: -1;
+}
+.weareD{
+  width: 80%;
+  height: 120px;
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+.creatingD{
+ 
+  height: auto;
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+.creativityD{
+  height: auto;
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+.buttonapplynowD{
+  width: 194px;
+  height: 45px;
+  border-radius: 62.5px;
+  background-color: #da7b6e;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: 'ProximaNovaAlt-Regular';
+  margin-top: 20px;
+  font-size: 18px;
+  margin-left: 18px;
+  cursor: pointer;
+
+}
+.contentcreatorD{
+  height: 22px;
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 33px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: 0.6px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.contentdivD{
+  margin: 0 auto;
+  width: 65%;
+  margin-top: -5%;
+
+}
+.spanclassD{
+  width: 46px;
+  height: 15px;
+  font-family: 'ProximaNovaAlt-Regular';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #43484d;
+  margin-top:200px
+}
+.responsibilitiesD{
+  width: 108px;
+  height: 15px;
+  font-family: 'ProximaNovaAlt-Bold';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #43484d;
+  margin-top: 100px;
+}
+.skillsD{
+  width: 40px;
+  height: 15px;
+  font-family:'ProximaNovaAlt-Bold';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #43484d;
+  margin-top: 80px;
+}
+.gobackD{
+
+
+position: absolute;
+top: 150px;
+left: 125px;
+
+}
+.iconLocationD{
+  font-size: 16px !important;
+}
+.locationPinD{
+  margin-left: 10px;
+}

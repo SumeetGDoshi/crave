@@ -1,0 +1,145 @@
+import React, { Component } from "react";
+
+import Slider from "react-animated-slider";
+
+import Balade_Logo from "../assets/DesktopWebsite/brand_logos/Balade_Logo.png";
+
+import dill_and_logo from "../assets/DesktopWebsite/brand_logos/dill_and_logo.png";
+import hotbox_logo from "../assets/DesktopWebsite/brand_logos/hotbox_logo.png";
+import matto_logo from "../assets/DesktopWebsite/brand_logos/matto_logo.png";
+import mike_and_pattys_logo from "../assets/DesktopWebsite/brand_logos/mike_and_pattys_logo.png";
+import monarch_logo from "../assets/DesktopWebsite/brand_logos/monarch_logo.png";
+import organic_riot_logo from "../assets/DesktopWebsite/brand_logos/organic_riot_logo.png";
+import pelicana_logo from "../assets/DesktopWebsite/brand_logos/pelicana_logo.png";
+import shaadi_logo from "../assets/DesktopWebsite/brand_logos/shaadi_logo.png";
+import the_bean_logo from "../assets/DesktopWebsite/brand_logos/the_bean_logo.png";
+import the_model_book_logo from "../assets/DesktopWebsite/brand_logos/the_model_book_logo.png";
+import tsuru_logo from "../assets/DesktopWebsite/brand_logos/tsuru_logo.png";
+import balade_logo from '../assets/DesktopWebsite/brand_logos/balade_logo.png';
+
+export class WhoWeWorkWith extends Component {
+  constructor(props) {
+    super(props);
+  }
+  componentDidMount() {}
+  render() {
+    return (
+      <div className="who-we-work-with section-container">
+        <div className="section-heading">WHO DO WE WORK WITH?</div>
+        <Slider autoplay="5000" infinite={true}>
+          <div className="client-matrix-container">
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={matto_logo} onClick={()=> {this.props.openModal("matto")}}/>
+              </div>
+
+              <div className="right-border" />
+              <div className="bottom-border" />
+            </div>
+            {/* <div className="client-block">
+              <div className="client-img-container">
+                <img src={moms_logo} onClick={()=> {this.props.openModal("moms")}}/>
+              </div>
+
+              <div className="right-border" />
+              <div className="bottom-border" />
+            </div> */}
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={the_bean_logo} onClick={()=> {this.props.openModal("the_bean")}}/>
+              </div>
+
+              <div className="right-border" />
+              <div className="bottom-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={monarch_logo} onClick={()=> {this.props.openModal("monarch")}}/>
+              </div>
+
+              <div className="bottom-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={the_model_book_logo} onClick={()=> {this.props.openModal("the_model_book")}}/>
+              </div>
+
+              <div className="right-border" />
+            </div>
+            {/* <div className="client-block">
+              <div className="client-img-container">
+                <img src={redbull_logo} onClick={()=> {this.props.openModal("redbull")}}/>
+              </div>
+
+              <div className="right-border" />
+            </div> */}
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={shaadi_logo} onClick={()=> {this.props.openModal("shaadi")}}/>
+              </div>
+
+              <div className="right-border" />
+              <div className="bottom-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={tsuru_logo} onClick={()=> {this.props.openModal("tsuru")}}/>
+              </div>
+            </div>
+          </div>
+          <div className="client-matrix-container">
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={Balade_Logo} onClick={()=> {this.props.openModal("balade")}}/>
+              </div>
+
+              <div className="right-border" />
+              <div className="bottom-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={dill_and_logo} onClick={()=> {this.props.openModal("dill_and")}}/>
+              </div>
+
+              <div className="right-border" />
+              <div className="bottom-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={hotbox_logo} onClick={()=> {this.props.openModal("hotbox")}}/>
+              </div>
+
+              <div className="bottom-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={organic_riot_logo} onClick={()=> {this.props.openModal("organic_riot")}}/>
+              </div>
+
+              <div className="right-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={mike_and_pattys_logo} onClick={()=> {this.props.openModal("mike_and_pattys")}}/>
+              </div>
+
+              <div className="right-border" />
+            </div>
+            <div className="client-block">
+              <div className="client-img-container">
+                <img src={pelicana_logo} onClick={()=> {this.props.openModal("pelicana")}}/>
+              </div>
+            </div>
+          </div>
+          
+        </Slider>
+      </div>
+    );
+  }
+}
+
+export default WhoWeWorkWith;
+
+// one square w: 262.859 px;
+// h: 194.958px
+// all squares w : 823.817px; h: 391.002px

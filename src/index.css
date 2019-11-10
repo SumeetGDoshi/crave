@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'ProximaNovaAlt-Regular';
+  src: 
+  local('ProximaNovaAlt-Regular'), 
+  url(./fonts/ProximaNovaAlt-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaAlt-Light';
+  src: 
+  local('ProximaNovaAlt-Light'), 
+  url(./fonts/ProximaNovaAlt-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaAlt-Bold';
+  src: 
+  local('ProximaNovaAlt-Regular'), 
+  url(./fonts/ProximaNovaAlt-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaAlt-Regular';
+  src: 
+  local('ProximaNovaAlt-Regular'), 
+  url(./fonts/ProximaNovaAlt-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaAlt-Regular';
+  src: 
+  local('ProximaNovaAlt-Regular'), 
+  url(./fonts/ProximaNovaAlt-Regular.otf) format('opentype');
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.headerlogo-404 {
+  width: 9.5%;
+  position: absolute;
+  left: 6%;
+}
+
+.container-404 {
+  position: absolute;
+  top: 30%;
+}
+
+.image-404 {
+  width: 25%;
+}
+
+.body-404 {
+  background: #DA7B6E;
+  text-align: center;
+  color: #FFF;
+}
+
+.heading-404 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}
+
+.bodytext-404 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+}
+
+.bottomright-404 {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  color: #000;
+  font-weight: 700;
+}
+
+.button-404 {
+  background: transparent;
+  padding: 2%;
+  border-radius: 40px;
+  border: 1px solid #FFF;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  color: #FFF;
+  cursor: pointer;
+}

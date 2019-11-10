@@ -1,0 +1,104 @@
+.flag-select {
+  position: relative;
+  display: inline-block;
+  vertical-align: inherit;
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: #4d4d4d;
+  text-align: left; }
+
+  .flag-select img {
+    width: 1.3em !important;
+    height: 1.3em;
+    position: relative;
+    top: 0.3em; }
+  .flag-select .selected--flag--option {
+    cursor: pointer;
+    padding: 0 8px; }
+    .flag-select .selected--flag--option:before {
+      content: ' ';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 999; }
+    .flag-select .selected--flag--option:focus {
+      outline: none; }
+    .flag-select .selected--flag--option .country-label {
+      padding: 0 3px; }
+  .flag-select .country-flag {
+    cursor: pointer; }
+    .flag-select .country-flag .country-label {
+      font-size: 1em;
+      position: relative; }
+  .flag-select .flag-options {
+    position: absolute;
+    z-index: 999999;
+    border: 1px solid #bdbbbb;
+    border-radius: 15px;
+    left: 0;
+    background: #ffffff;
+    margin-top: 8px;
+    padding: 8px 0;
+    max-height: 160px;
+    overflow: auto; }
+    .flag-select .flag-options.to--left {
+      right: 10px; }
+  .flag-select .flag-option {
+    cursor: pointer;
+    padding: 0px 8px 3px 8px;
+    margin: 4px 0;
+    white-space: nowrap; }
+    .flag-select .flag-option.has-label {
+      padding: 0px 20px 3px 8px; }
+    .flag-select .flag-option:hover {
+      background: #eaeaea; }
+    .flag-select .flag-option:focus {
+      outline: none;
+      background: #eaeaea; }
+    .flag-select .flag-option .country-label {
+      padding: 0 9px; }
+  .flag-select .filterBox {
+    width: 100%; }
+    .flag-select .filterBox input {
+      width: 90%;
+      margin: 0 4%; }
+      .flag-select .filterBox input:focus {
+        outline: none; }
+  .flag-select .arrow-down {
+    color: #4d4d4d;
+    padding: 3px;
+  margin-left: 4px; }
+  .flag-select .hidden {
+    display: none; }
+  .flag-select .no--focus {
+    pointer-events: none; }
+
+.testimonials-box{
+  width: 300px;
+  height: 240px;
+  margin-bottom: 50px;
+  border: 7px solid;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.testimonials-box-red{
+  border-color: #000000;
+}
+
+.testimonials-box-text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimonials-box-name{
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 12px;
+}

@@ -1,0 +1,80 @@
+/* Form CSS Here */
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid #212121;
+  min-width: 200px;
+  margin: 0 10px;
+  outline: none;
+  height: 20px;
+  font-size: 16px;
+}
+
+.input-div {
+  margin: 8px 20px 8px 30px;
+}
+
+.form-div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.left-side{
+  width: 30%;
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-img {
+  width: 60%;
+}
+
+.right-side {
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.submit-form-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 14px;
+  color: white;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-div {
+    display: block;
+  }
+  .left-side {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+  }
+  .left-img {
+    height: 56%;
+    width: auto;
+  }
+  .right-side {
+    position: static;
+    width: 100%;
+  }
+  .form-input {
+    margin: 10px 10px 10px 0px;
+  }
+  .input-div {
+    margin-top: 20px;
+  }
+}
