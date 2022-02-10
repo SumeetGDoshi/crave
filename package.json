@@ -11,7 +11,7 @@
     "email-validator": "^2.0.4",
     "jquery": "^3.3.1",
     "material-ui-icons": "^1.0.0-beta.36",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.6.3",
     "react-animated-slider": "^1.1.4",
     "react-card-flip": "^0.3.0",
